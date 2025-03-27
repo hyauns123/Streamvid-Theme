@@ -1,0 +1,268 @@
+body {
+    --pmpro--color--contrast: var(--heading);
+   --pmpro--color--base: var(--background-item);
+   --pmpro--color--border: var(--background-item);
+    --pmpro--color--error-border:#ff7282;
+    --pmpro--color--accent--variation:var(--main);
+    --pmpro--color--accent:var(--main);
+    --pmpro--color--border--variation: var(--border-color);
+}
+.pmpro  {
+    .pmpro_card_title {
+        padding-top:15px;
+    }
+}
+.pmpro_section  {
+    .pmpro_card {
+    	border: 1px solid var(--border-color);
+		background: transparent;
+    }
+}
+#pmpro_user_fields {
+        margin-bottom: 50px;
+    .pmpro_card {
+  
+    }
+    .pmpro_form_field-password-toggle-state {
+        display: none;
+    }
+    .pmpro_form_field-password-toggle button {
+        box-shadow: none !important;
+            margin-bottom: 10px;
+    }
+}
+#pmpro_billing_address_fields , #pmpro_payment_information_fields {
+    .pmpro_card {
+        margin-top:0;
+        border:0;
+        .pmpro_card_content {
+              padding: 0 !important;
+        }
+    }
+    .pmpro_cols-2 {
+        display: block;
+        > * {width: 100%; 
+        margin-bottom: 1em;}
+    }
+}
+
+.pmpro_table {
+    border: 1px solid #333549;
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-sm);
+     margin-bottom: 26px;
+      color: var(--heading);
+     tr {
+        border-color:#333549;
+     }
+     thead {
+        
+        
+     }
+     .pmpro_actionlinks a {
+            font-weight: 700;
+     }
+}
+form.pmpro_form .pmpro_checkout-fields div, #loginform p {
+    margin-bottom: 1em;
+}
+#pmpro_account .pmpro_box {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    > h5 {
+        margin-bottom:20px;
+    }
+}
+
+hr {
+      border-color: var(--border-color);
+}
+.pmpro_billing_wrap {
+    hr {
+        border-color:var(--border-color);
+        margin: 20px 0;
+    }
+    .pmpro_actions_nav:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    ul {
+        padding: 0;
+        list-style-type: none;
+        li {
+            strong {
+                    color: var(--heading);
+            }
+        }
+    }
+}
+
+.pmpro_invoice_wrap {
+    .pmpro_actions_nav {
+        text-align: left;
+        > a:first-child {
+            margin-right:10px;
+        }
+    }
+    ul {
+    padding: 0;
+    list-style-type: none;
+    }
+}
+
+.pmpro_message {
+    margin-bottom: 20px;
+}
+
+#pmpro_pricing_fields {
+   background: var(--background-item);
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid var(--main);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    .pmpro_level_description_text {
+         ul {
+            padding-left:1em;
+         }
+    }
+    .pmpro_level_name_text {
+        margin-bottom: 10px;
+    }
+}
+
+.pmpro_cancel_wrap {
+    padding: 60px 0;
+    text-align: center;
+    .pmpro_actionlinks a:last-child {
+            color: var(--heading);
+            &:hover {
+                color:var(--main) !important;
+            }
+    }
+}
+
+form.pmpro_form  .pmpro_form_fieldset {
+    position: relative;
+    label {
+        font-weight: inherit;
+        color: var(--heading);
+        margin-bottom: 0.5rem;
+        margin-right: 5px;
+    }
+    input , select , textarea {
+        max-width: 100%;
+        width: 100% !important;
+    }
+    .pmpro_payment-expiration {
+   
+    .spacing {
+            display:inline-block;
+            margin: 0;
+            padding: 0 10px;
+        }
+        .select2-container {
+            display:inline-block; 
+            width: auto !important; 
+        }
+        select {
+            width: auto !important;
+        }
+    }
+    input , select{
+       min-height: 48px;
+       box-shadow: none !important;
+    }
+ 
+}
+.pmpro .pmpro_section {
+    margin-bottom: 0; 
+}
+#pmpro_payment_information_fields {
+    border: 1px solid var(--border-color);
+   padding: 25px 25px 25px;
+   max-width: 700px;
+   border-radius: 10px;
+   .pmpro_form_field {
+          margin-bottom: 15px;  
+    }
+    
+    .StripeElement  {
+        background-color: #ffffff;
+        border: 0;
+        border-radius: 5px; 
+    }
+    .pmpro_font-large {
+       font-size: 28.43px;
+        line-height: 32px;
+    }
+    .pmpro_form_fields-inline {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        select {
+                min-width: 96px;
+        }
+    }
+
+}
+
+
+
+#pmpro_btn-submit-paypalexpress {
+    color: #000;
+    border: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;  
+}
+
+#pmpro_form {
+    hr {
+        display:none;
+    }
+}
+
+
+body input.pmpro_error  {
+        background-color: var(--input-background) !important;
+}
+#pmpro_submit_span {
+   display: block;
+}
+
+.pmpro_confirmation_wrap {
+    > h4 {
+        margin: 20px 0;
+    }
+    > hr {
+       margin: 20px 0; 
+    }
+    strong {
+        color: var(--heading);
+    }
+    .pmpro_price_part-total {
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .pmpro_actions_nav {
+        margin-top: 40px;
+    }
+}
+
+.pmpro_a-print {
+   color: var(--heading); 
+}
+
+
+
+@media(max-width:767px) {
+    .pmpro_invoice_details .pmpro_invoice-billing-address, .pmpro_invoice_details .pmpro_invoice-payment-method {
+         margin-bottom: 20px;
+    }
+}
